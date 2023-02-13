@@ -29,3 +29,25 @@
   transform-origin: bottom;
   transform: rotate(30deg);
 }
+
+.minute {
+  border: 2px solid rgb(25, 25, 25);
+  background-color: rgb(29, 27, 27);
+  border-radius: 4rem;
+  width: 0.6rem;
+  height: 11rem;
+  position: absolute;
+  bottom: 50%;
+  transform-origin: bottom;
+  transform: rotate(0deg);
+}
+.second {
+  background-color: rgb(253, 8, 8);
+  border-radius: 4rem;
+  width: 0.5rem;
+  height: 14rem;
+  position: absolute;
+  bottom: 50%;
+  transform-origin: bottom;
+  transform: rotate(90deg);
+}
