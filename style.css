@@ -51,3 +51,16 @@
   transform-origin: bottom;
   transform: rotate(90deg);
 }
+
+
+.box::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgb(253, 8, 8);
+  position: sticky;
+  bottom: 48%;
+  left: 48.6%;
+  border-radius: 50%;
+  z-index: 5;
+}
